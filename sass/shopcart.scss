@@ -1,0 +1,137 @@
+
+body{
+        font: 12px/1.5 tahoma,'Microsoft YaHei';
+    color: #666;
+}
+
+#shoptitle{
+    width:990px;
+    margin:15px auto;
+   
+}
+#shoptitle img{
+    display: block;
+}
+#shopcontent{
+       margin:0 auto;
+       width: 988px;
+   
+       padding-bottom: 10px;
+        border: 3px solid #eee;
+        margin-top: 20px;
+       
+}
+#shopcontent table{
+    font-size:14px;
+    width:988px;
+   
+}
+
+#shopcontent #cartshop{
+    display: block;
+    width:988px;
+    height:50px;
+    line-height:50px;
+    margin-top:5px;
+  
+    border-bottom:1px solid #CCCCCC;
+}
+#shopcontent table  tr th,#shopcontent table tr td{
+    width:140px;
+    display: inline-block;
+    padding:0 10px;
+}
+#shopcontent table tr{
+    display: block;
+    width:100%;
+    
+
+     border-bottom:1px solid #CCCCCC;
+}
+
+#shopcontent table tr #selfirst{
+   margin-left:50px;
+    width:40px;
+}
+#shopcontent table tr #proname{
+    width:250px;
+
+}
+#shopcontent table #numcontrol span{
+    float:left;
+    display: inline-block;
+    width:20px;
+    height:24px;
+    line-height:20px;
+    text-align:center;
+    background: #AAAAAA;
+    cursor:pointer;
+}
+#shopcontent table #numcontrol input{
+    padding-left:5px;
+    float:left;
+    width:25px;
+    height:20px;
+   
+}
+
+#shopcontent table tr #pronum{
+
+    width:80px!important;
+}
+#shopcontent table tr #delbtn{
+    width:50px;
+    margin-left:50px;
+}
+#shopcontent #operate{
+    width:100%;
+    height:80px;
+    line-height:80px;
+}
+#shopcontent #operate a{
+    
+    padding:0 20px;
+    color:#666;
+    
+}
+#shopcontent #operate input{
+    margin-left:50px;
+}
+#shopcontent #pay{
+     padding-left:10px;
+    width:100%;
+   height:60px;
+   line-height:60px;
+   
+    background: #ccc;
+}
+#pay input{
+    height:26px;
+    width:80px;
+    background: #333333;
+    border:none;
+    color:#fff;
+}
+#pay #clear{
+    margin-left:5px;
+    margin-right:500px;
+}
+#pay i{
+    font-size:20px;
+    margin-right:5px;
+}
+
+#pay  #gopay{
+    width:86px;
+    height:59px;
+    float:right;
+}
+
+#proname img{
+    display: block;
+    width:100px;
+    height:100px;
+}
+#proname span{
+   float: right;
+}

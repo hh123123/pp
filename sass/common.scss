@@ -1,0 +1,435 @@
+//头部
+*{margin:0;padding:0;}
+a{text-decoration:none;}
+li{list-style:none;}
+
+#header{
+    width:100%;
+    height:40px;
+    background:#333;
+    margin:0 auto
+}
+#header #guanzhu{
+    float:left;
+    margin-left:145px;
+    width:92px;
+    height:40px;
+    
+}
+#header li{
+    float:left;
+    font-size:12px;
+    line-height: 40px;
+    
+}
+#header #guanzhu li{
+    position:relative;
+}
+#header li a{
+    color:#fff;
+}
+#header .download{
+    margin-left:20px;
+}
+
+#header .border{
+    border: 1px solid #ccc;
+    position:absolute;
+    left:-60px;
+    top:40px;
+    display:none;
+    width:140px;
+    height:166px;
+    
+}
+#header #border2{
+    left:-30px;
+}
+#header .guanzhuimg{
+    display: block;
+    width:120px;
+    height:120px;
+    margin:10px;
+    
+}
+#header #guanzhu span{
+    line-height: 0;
+    margin: 10px 0 18px;
+    display: block;
+    color:#333;
+    text-align: center;
+    background: red;
+    
+}
+#header #rightnav{
+     
+    float:right;
+    height:40px;
+    margin-right:92px;
+}
+
+#header #rightnav .itemfirst{
+    margin-right:11px;
+    color:#ccc;
+}
+#header #rightnav .item{
+    margin:0 11px;
+}
+#header #rightnav  .itemcart{
+    position:relative;
+    margin-left:13px;
+    margin-right:11px;
+
+}
+#header #rightnav  .itemcart span{
+    position:absolute;
+     display:none;
+    line-height:20px;
+    text-align:center;
+    top:0px;
+    right:-20px;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+
+    color:#E60012;
+    background: #fff;
+}
+#header #rightnav i{
+    width:10px;
+    height:10px;
+    display:inline-block;
+}
+
+#header #rightnav img{
+    width:12px;
+    height:12px;
+    margin-right:8px;
+}
+#header #rightnav .item{
+    position:relative;
+}
+#header #rightnav #itemselect{
+    display:none;
+    position:absolute;
+    top:40px;
+    right:0;
+    width:180px;
+    border:1px solid #eee;
+    padding:15px 15px 30px 20px;
+    background: #fff;
+    
+}
+#header #rightnav #itemselect li{
+    width:180px;
+    height:20px;
+    line-height:28px;
+    padding-bottom:8px;
+    border-bottom:1px solid #eee;
+    
+}
+#header #rightnav #itemselect .wuliu{
+    color:#e60012;
+}
+#header #rightnav #itemselect a{
+    color:#666;
+    font-size:12px;
+}
+#title{
+    width:100%;
+    height:219px;
+    margin:0 auto;
+}
+
+#title #titlelog {
+    padding: 55px 0;
+    width:98px;
+    height:58px;
+   margin:0 auto;
+
+   line-height:98px;
+}
+#title #titlelog img{
+    width:98px;
+    height:58px;
+}
+#title #titlenav{
+  background:#fff;
+    width:100%;
+    height:50px;
+    
+}
+.addborder{
+    border-bottom:3px solid #333;
+}
+#title #titlenav1{
+    position:relative;
+    width:1190px;
+    padding: 0 60px;
+    height:50px;
+    margin:0 auto;
+ 
+
+}
+#title #titlenav1 ul{
+    float:left;
+    width:920px;
+    height:50px;
+}
+#title #titlenav #tlogo{
+    display:none;
+    padding:0;
+   margin-right:9px;
+   height:38px;
+}
+#title #titlenav #tlogo img{
+    width:60px;
+    height:38px;
+}
+#title #titlenav1 ul li{
+
+    float:left;
+    width:80px;
+    height:20px;
+    padding:15px;
+    font-size:20px;
+    font-weight:600;
+    
+   
+    
+}
+#title #titlenav1 ul li a{
+    color:#333333;
+   
+}
+#title #titlenav1 #search{
+    width:180px;
+    height:25px;
+    margin-left:50px;
+    margin-top:15px;
+    padding-bottom: 1px;
+    float:right;
+    border-bottom:2px solid #3a3a3a;
+    position:relative;
+}
+#title #titlenav1 #search #searchdetails{
+     display:none;
+     width:180px;
+      height:300px;
+     background:#fff;
+     border:1px solid #CCCCCC;
+     position:absolute;
+     top:32px;
+     left:0;
+     overflow: auto;
+    
+    
+}
+#title #titlenav1 #search #searchdetails li{
+     font-size:12px;
+     width:100%;
+     
+}
+ #titlenav1 #search #val{
+     width:160px;
+     height:25px;
+     border:none;
+     float: left;
+ }
+ #titlenav1 #search  #ser{
+      float: right;
+      width:19px;
+      height:20px;
+      border:none;
+      background: url(../img/ser.png) no-repeat;
+      
+      
+ }
+ #titlenav1 ul li div{
+     
+     width:100%;
+     height:225px;
+     position:absolute;
+     display:none;
+     top:50px;
+     left:0px;
+     background:#fff;
+     padding:30px 0 70px 0;
+     border-top:1px solid #ccc;
+     border-bottom:3px solid #333;
+     z-index:10000;
+ }
+ #titlenav11 div li{
+     
+     width:200px;
+     text-align:center;
+        float:left;
+     margin-left:100px;
+     color:#fff;
+    
+ }
+ #titlenav11 div li h3{
+     text-align: center;
+    color:#000000;
+    font-size:20px;
+    width:100px;
+    
+ }
+  #titlenav11 div li p{
+      font-size:14px;
+      color:#666;
+      margin-top:20px;
+      margin-left:10px;
+  }
+ 
+ //尾部
+ #footer{
+    width:100%;
+    background: #333;
+    margin:0 auto;
+    
+}
+#footer #footertitle{
+    width:100%;
+    height:115px;
+    border-bottom:1px solid #666;
+    background:#333;
+    overflow: hidden;
+    
+    
+}
+#footer #footertitle ul{
+    margin:46px auto 42px;
+    width:1190px;
+    height:28px;
+
+}
+#footer #footertitle ul li{
+    height:28px;
+    float:left;
+    margin-right:52px;
+}
+#footer #footerhelp{
+    
+     width:100%;
+    height:475px;
+    background:#333;
+    
+}
+#footer #footerhelp1{
+    width:1190px;
+    height:415px;
+    margin:30px auto;
+}
+
+#helpnav{
+    width:100%;
+    height:130px;
+    margin-top:25px;
+}
+#helpnav li{
+    float:left;
+    height:130px;
+ margin-right:80px;
+  font:12px/20px tahoma,'Microsoft YaHei';
+}
+
+#helpnav li h3{
+    font-weight: normal;
+    color:#fff;
+    height:20px;
+   
+}
+#helpnav li p{
+     height:20px;
+     margin-top:15px;
+}
+#helpnav li p a{
+    color:#666;
+}
+#helpnav li p a:hover{
+    color:#fff;
+}
+
+#footerhelp1 #helplogo{
+    width:100%;
+    height:207px;
+    overflow: hidden;
+}
+#helplogo .logoleft{
+    width:544px;
+    height:47px;
+    float:left;
+    margin-top:160px;
+    
+}
+#helplogo .logoleft img{
+    width:124px;
+    height:47px;
+}
+#helplogo .logoright{
+    margin-top:30px;
+    height:152px;
+    float:left;
+    margin-left:146px;
+    
+}
+#helplogo li{
+    float:left;
+}
+#helplogo .logoleft li{
+    width:124px;
+    height:47px;
+    margin-left:12px;
+}
+#helplogo .logoright li {
+    width:120px;
+     margin-left:40px;
+     text-align:center;
+}
+#helplogo .logoright li img{
+    width:105px;
+    height:104px;
+   
+    
+}
+#helplogo .logoright li p{
+    margin-top:12px;
+    width:120px;
+    height:20px;
+    font-size:12px;
+    color:#fff;
+    text-align:center;
+    
+}
+#footerhelp1 .friendly-link{
+    
+    width:100%;
+    height:20px;
+    margin:20px auto;
+    
+}
+#footerhelp1 .friendly-link li{
+    float:left;
+    
+}
+#footerhelp1 .friendly-link li a{
+    width:48px;
+    height:20px;
+    margin:0 10px;
+    font:12px/20px tahoma,'Microsoft YaHei';
+    color:#fff;
+    
+}
+#footerhelp1 .copyright{
+    width:100%;
+    margin-top:5px;
+    height:18px;
+}
+#footerhelp1 .copyright p{
+    font:12px/1.5 tahoma,'Microsoft YaHei';
+      color:#fff;
+}
+#footerhelp1 .copyright p a{
+    color:#fff;
+}

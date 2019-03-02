@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		  <link rel="shortcut icon" href="https://www.yougou.com/favicon.ico">
+		<title>优购时尚商城-时尚服饰鞋包网购首选-优生活,购时尚!</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<script src="js/jquery-1.11.0.js"></script>
+		<script src="js/cookie.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			<ul id="guanzhu">
+			<li>
+				<a href="#">关注</a>
+				<div class="border">
+				<img class="guanzhuimg"    src="https://pcs1.ygimg.cn/template/common/images/weChat.jpg " alt="关注公众号"/>
+				<span>关注公众号</span>
+				</div>
+			</li>	
+		     <li class="download">
+				<a href="#">下载APP</a>
+				<div class="border" id="border2">
+				<img class="guanzhuimg"    src="https://pcs1.ygimg.cn/template/common/images/app.jpg " alt="优购APP下载"/>
+				<span>优购APP下载</span>
+				</div>
+			</li>
+			</ul>
+	
+		   <ul id="rightnav">
+		   	<li class="itemfirst"><a id="logname" href="login.html">未登录</a>&nbsp;/&nbsp;<a href="register.html">注册</a></li>
+		   	<li class="item">
+		  <a href="https://www.yougou.com/my/favorites.jhtml" class="top-collect">
+          <img src="img/xin.png"/>
+                  收藏
+         </a>
+		   	</li>
+		   	<li class="itemcart">
+		   
+		   	<a href="shopcar.html"> <img src="img/cart.png"/>购物车</a>
+		   	<span id="cartnumber"></span>
+		   	</li>
+		   	<li class="item">
+		   	<a href="#">公告</a>
+		   	<ul id="itemselect">
+		    <li><a href="#" class="wuliu">优购2019春节物流安排通知</a></li>
+		    <li><a href="#">优购客服电话变更</a></li>
+		     <li><a href="#">关闭分享购频道</a></li>		    
+		   	  <li><a href="#">提醒会员谨防诈骗电话</a></li>			
+		   	</ul>
+		   	</li>
+		   </ul>
+		</div>
+		<div id="title">
+			<div id="titlelog">
+				<a href="index.html">
+					<img src="img/logo.png" />
+				</a>
+			</div>
+			<div id="titlenav">
+				<div id="titlenav1">
+					<ul id="titlenav11">
+						<li id="tlogo"><a href="index.html"><img src="img/logo.png"/></a></li>
+					    <li>
+					    	<a href="index.html">首页</a>
+					    </li>
+					    <li><a href="list.html">零食</a>
+					    	<div></div>
+					    </li>
+					   	<li><a href="index.html">男鞋</a>
+					   	   <div></div>
+					   	</li>
+					   	<li><a href="index.html">运动</a>
+					   	   <div></div>
+					   	</li>
+					   	<li><a href="index.html">户外</a>
+					   	 <div></div>
+					   	</li>	
+					   	<li><a href="index.html">儿童</a>
+					   	  <div></div>
+					   	</li>
+					   	<li><a href="index.html">鞋包</a>
+					   	 <div></div>
+					   	</li>
+					</ul>
+					<form id="search">
+					  <input id="val" type="text" />
+				     <input id="ser" type="submit" value="" />
+				     <ul id="searchdetails">
+				     	
+				     </ul>
+					</form>
+				</div>
+		
+			</div>
+		</div>
+		<div id="banner">
+			<div id="bannerimg">
+		     <a class="lunbo" href="#"><img src="img/lun1.jpg"></a>
+		      <a class="lunbo" href="#"><img src="img/lun2.jpg"></a>
+			</div>
+			<div id="bannernum">
+				<span class="num1"></span>
+				<span></span>
+			</div>
+			
+		</div>
+		<div id="pronew">
+			<div id="protitle">
+				<h1>新品推荐</h1>
+			<p>
+		      <a href="#">男女鞋</a>
+		       <a href="#">运动</a>
+			</p>
+				
+			</div>
+			<div id="prolist">
+		    <i  class="left">&lt;</i>
+			<i  class="right">&gt;</i>		
+			<div id="procenter">
+			<ul id="centerlist">
+				<li>
+               <a target="_blank" href="//www.yougou.com/f-belle-0-0-6.html" title="休闲 满帮鞋">
+                <img  class="pro1" src="img/pro1.jpg" alt="休闲 满帮鞋">  
+               </a>
+				<img  class="prologo1" src="img/belle.png" alt="百丽">
+				<p>
+                  <a target="_blank" href="//www.yougou.com/f-belle-0-0-6.html" title="休闲 满帮鞋">
+                    休闲 满帮鞋
+                  </a>
+               </p>
+                  <div class="price-wrap">￥
+                    <span>1099</span>
+                    <img src="img/proxin.png" />
+                  </div>
+				</li>
+				
+					<li>
+               <a target="_blank" href="//www.yougou.com/f-belle-0-0-6.html" title="休闲 满帮鞋">
+                <img  class="pro1" src="img/pro2.jpg" alt="休闲 满帮鞋">  
+               </a>
+				<img  class="prologo1" src="img/tata.png" alt="tata">
+				<p>
+                  <a target="_blank" href="//www.yougou.com/f-belle-0-0-6.html" title="休闲 满帮鞋">
+                    休闲 满帮鞋
+                  </a>
+               </p>
+                  <div class="price-wrap">￥
+                    <span>899</span>
+                        <img src="img/proxin.png" />
+                  </div>
+				</li>
+					<li>
+               <a target="_blank" href="//www.yougou.com/f-belle-0-0-6.html" title="休闲 满帮鞋">
+                <img  class="pro1" src="img/pro3.jpg" alt="休闲 满帮鞋">  
+               </a>
+				<img  class="prologo1" src="img/blackL-teenmix.png" alt="天美意">
+				<p>
+                  <a target="_blank" href="//www.yougou.com/f-belle-0-0-6.html" title="休闲 满帮鞋">
+                    简约 中空凉鞋
+                  </a>
+               </p>
+                  <div class="price-wrap">￥
+                    <span>799</span>
+                        <img src="img/proxin.png" />
+                  </div>
+				</li>
+					<li>
+               <a target="_blank" href="//www.yougou.com/f-belle-0-0-6.html" title="休闲 满帮鞋">
+                <img  class="pro1" src="img/pro4.jpg" alt="休闲 满帮鞋">  
+               </a>
+				<img  class="prologo1" src="img/blackL-staccato.png" alt="百丽">
+				<p>
+                  <a target="_blank" href="//www.yougou.com/f-belle-0-0-6.html" title="休闲 满帮鞋">
+                    休闲 浅口鞋
+                  </a>
+               </p>
+                  <div class="price-wrap">￥
+                    <span>1190</span>
+                        <img src="img/proxin.png" />
+                  </div>
+				</li>
+			
+			 <li>
+               <a target="_blank" href="//www.yougou.com/f-belle-0-0-6.html" title="休闲 满帮鞋">
+                <img  class="pro1" src="img/pro5.jpg" alt="休闲 满帮鞋">  
+               </a>
+				<img  class="prologo1" src="img/blackL-millies.png" alt="百丽">
+				<p>
+                  <a target="_blank" href="//www.yougou.com/f-belle-0-0-6.html" title="休闲 满帮鞋">
+                   OL通勤 中空凉鞋
+                  </a>
+               </p>
+                  <div class="price-wrap">￥
+                    <span>1199</span>
+                        <img src="img/proxin.png" />
+                  </div>
+				</li>
+				
+			<li>
+			
+			
+               <a target="_blank" href="//www.yougou.com/f-belle-0-0-6.html" title="休闲 满帮鞋">
+                <img  class="pro1" src="img/pro6.jpg" alt="休闲 满帮鞋">  
+               </a>
+				<img  class="prologo1" src="img/blackL-millies.png" alt="百丽">
+				<p>
+                  <a target="_blank" href="//www.yougou.com/f-belle-0-0-6.html" title="休闲 满帮鞋">
+                   OL通勤 中空凉鞋
+                  </a>
+               </p>
+                  <div class="price-wrap">￥
+                    <span>1199</span>
+                        <img src="img/proxin.png" />
+                  </div>
+				</li>
+				
+							<li>
+               <a target="_blank" href="//www.yougou.com/f-belle-0-0-6.html" title="休闲 满帮鞋">
+                <img  class="pro1" src="img/pro7.jpg" alt="休闲 满帮鞋">  
+               </a>
+				<img  class="prologo1" src="img/blackL-millies.png" alt="百丽">
+				<p>
+                  <a target="_blank" href="//www.yougou.com/f-belle-0-0-6.html" title="休闲 满帮鞋">
+                   OL通勤 中空凉鞋
+                  </a>
+               </p>
+                  <div class="price-wrap">￥
+                    <span>1199</span>
+                        <img src="img/proxin.png" />
+                  </div>
+				</li>
+				
+							<li>
+               <a target="_blank" href="//www.yougou.com/f-belle-0-0-6.html" title="休闲 满帮鞋">
+                <img  class="pro1" src="img/pro8.jpg" alt="休闲 满帮鞋">  
+               </a>
+				<img  class="prologo1" src="img/blackL-millies.png" alt="百丽">
+				<p>
+                  <a target="_blank" href="//www.yougou.com/f-belle-0-0-6.html" title="休闲 满帮鞋">
+                   OL通勤 中空凉鞋
+                  </a>
+               </p>
+                  <div class="price-wrap">￥
+                    <span>1199</span>
+                        <img src="img/proxin.png" />
+                  </div>
+				</li>
+				
+				<li>
+               <a target="_blank" href="//www.yougou.com/f-belle-0-0-6.html" title="休闲 满帮鞋">
+                <img  class="pro1" src="img/pro9.jpg" alt="休闲 满帮鞋">  
+               </a>
+				<img  class="prologo1" src="img/blackL-millies.png" alt="百丽">
+				<p>
+                  <a target="_blank" href="//www.yougou.com/f-belle-0-0-6.html" title="休闲 满帮鞋">
+                   OL通勤 中空凉鞋
+                  </a>
+               </p>
+                  <div class="price-wrap">￥
+                    <span>1199</span>
+                        <img src="img/proxin.png" />
+                  </div>
+				</li>
+				
+				
+				<li>
+               <a target="_blank" href="//www.yougou.com/f-belle-0-0-6.html" title="休闲 满帮鞋">
+                <img  class="pro1" src="img/pro10.jpg" alt="休闲 满帮鞋">  
+               </a>
+				<img  class="prologo1" src="img/blackL-millies.png" alt="百丽">
+				<p>
+                  <a target="_blank" href="//www.yougou.com/f-belle-0-0-6.html" title="休闲 满帮鞋">
+                   OL通勤 中空凉鞋
+                  </a>
+               </p>
+                  <div class="price-wrap">￥
+                    <span>1199</span>
+                        <img src="img/proxin.png" />
+                  </div>
+				</li>
+				
+				<li>
+               <a target="_blank" href="//www.yougou.com/f-belle-0-0-6.html" title="休闲 满帮鞋">
+                <img  class="pro1" src="img/pro11.jpg" alt="休闲 满帮鞋">  
+               </a>
+				<img  class="prologo1" src="img/blackL-millies.png" alt="百丽">
+				<p>
+                  <a target="_blank" href="//www.yougou.com/f-belle-0-0-6.html" title="休闲 满帮鞋">
+                   OL通勤 中空凉鞋
+                  </a>
+               </p>
+                  <div class="price-wrap">￥
+                    <span>1199</span>
+                        <img src="img/proxin.png" />
+                  </div>
+				</li>
+				<li>
+               <a target="_blank" href="//www.yougou.com/f-belle-0-0-6.html" title="休闲 满帮鞋">
+                <img  class="pro1" src="img/pro12.jpg" alt="休闲 满帮鞋">  
+               </a>
+				<img  class="prologo1" src="img/blackL-millies.png" alt="百丽">
+				<p>
+                  <a target="_blank" href="//www.yougou.com/f-belle-0-0-6.html" title="休闲 满帮鞋">
+                   OL通勤 中空凉鞋
+                  </a>
+               </p>
+                  <div class="price-wrap">￥
+                    <span>1199</span>
+                        <img src="img/proxin.png" />
+                  </div>
+				</li>
+				
+			</ul>
+				
+	        </div>
+			</div>	
+			
+				</div>
+				
+
+			<div id="bigpro">
+				
+				
+		   <div id="protitle">
+				<h1>今日主推大牌</h1>
+			<p>
+		      <a href="#">男女鞋</a>
+		       <a href="#">运动</a>
+			</p>
+				
+			</div>
+		    <div id="proshow">
+		    	
+		    	<ul id="proshow1">
+		    		<li>
+		    	    <a href="#" >
+		    	    	<img src="img/proshow1.jpg" />
+		    	    	<a class="hoverimg" href="#"><img src="img/whiteL-teenmix.png" /></a>
+		    	    </a>
+		    	    
+		    		</li>
+		    			<li class="special">
+		    	    <a href="#" ><img src="img/proshow2.jpg" /></a>
+		    	    <a class="hoverimg" href="#"><img src="img/whiteL-millies.png" /></a>
+		    		</li>
+		    			<li>
+		    	    <a href="#" ><img src="img/proshow3.jpg" /></a>
+		    	    <a class="hoverimg" href="#"><img src="img/whiteL-staccato.png" /></a>
+		    		</li>
+		    	</ul>
+		    	
+		    	
+		    	<div>
+		      <div id="smalogo">
+		    			
+		    <i class="left">&lt;</i>
+			<i  class="right">&gt;</i>
+		    	<div id="smalogo1">
+		    <div id="smalogo2">
+		    	<a title="思加图" target="_blank" href="#" brand_id="">
+                  <img width="68" height="31" src="img/blackL-staccato.png">
+             </a>
+             <a title="妙丽" target="_blank" href="#" brand_id="">
+                  <img width="68" height="31" src="img/blackL-millies.png">
+              </a>
+               <a title="妙丽" target="_blank" href="#" brand_id="">
+                  <img width="68" height="31" src="img/blackL-teenmix.png">
+              </a>
+               <a title="妙丽" target="_blank" href="#" brand_id="">
+                  <img width="68" height="31" src="img/blackL-skap.png">
+              </a>
+               <a title="妙丽" target="_blank" href="#" brand_id="">
+                  <img width="68" height="31" src="img/blackL-hushpuppies.png">
+              </a>
+               <a title="妙丽" target="_blank" href="#" brand_id="">
+                  <img width="68" height="31" src="img/blackL-bata.png">
+              </a>
+                <a title="妙丽" target="_blank" href="#" brand_id="">
+                  <img width="68" height="31" src="img/blackL-basto.png">
+              </a>
+              <a title="妙丽" target="_blank" href="#" brand_id="">
+                  <img width="68" height="31" src="img/blackL-belle.png">
+              </a>
+              <a title="妙丽" target="_blank" href="#" brand_id="">
+                  <img width="68" height="31" src="img/blackL-joypeace.png">
+              </a>
+              <a title="妙丽" target="_blank" href="#" brand_id="">
+                  <img width="68" height="31" src="img/blackL-tata.png">
+              </a>
+              <a title="妙丽" target="_blank" href="#" brand_id="">
+                  <img width="68" height="31" src="img/blackL-senda.png">
+              </a>
+		    </div>
+		    
+            
+		    	</div>
+		    		</div>
+		    		
+
+		</div>
+		<div id="fashion">
+			<div id="fasnews">
+				<div id="fastitle">
+					<h1>品牌潮流资讯</h1>
+					<p>BRAND FASHION</p>
+				</div>
+				<ul id="fasimg">
+		<li>
+		<a href="//i1.ygimg.cn/pc_video/advertising_video_teenmix_2018.mp4">
+		<video class="video" poster="//i1.ygimg.cn/pics/shop/seoul/PCnei_rong_zi_xun/shou_ye_mo_kuai_ru_kou_tu/pin_pai_duan_pian_(1).jpg" style="background-color:#000;" controlslist="nodownload" onclick="playPause(this)" width="315" height="458" controls="">
+          </video>
+		</a>
+		  </li>
+					
+			<li>
+			<a href="#"	>
+				<img src="img/fasimg1.jpg" />
+			</a>
+			</li>
+					
+			<li>
+		<a href="#"	>
+				<img src="img/fasimg2.jpg" />
+			</a>
+				
+			</li>
+				</ul>
+			</div>
+			
+			<div id="fashow">
+				<div id="fashow1">
+					<ul id="fasdetail">
+					<li>
+					<a href="#">
+						<img src="img/fasde1.jpg" />
+						<p>
+					     不一样的通勤鞋
+						</p>
+					</a>
+					</li>
+						<li>
+					<a href="#">
+						<img src="img/fasde2.jpg" />
+						<p>
+					    显瘦心机袜靴PK
+						</p>
+					</a>
+					</li>
+						<li>
+					<a href="#">
+						<img src="img/fasde3.jpg" />
+						<p>
+					     赚足回头率的Sneaker
+						</p>
+					</a>
+					</li>
+						<li>
+					<a href="#">
+						<img src="img/fasde4.jpg" />
+						<p>
+					     你的酷男孩已上线
+						</p>
+					</a>
+					</li>
+					
+				</ul>
+				</div>
+				
+			</div>
+			<div id="fasvideo">
+				<video class="video" id="vid" poster="//i1.ygimg.cn/pics/shop/seoul/guan_wang_su_cai/wei_biao_ti_-1.jpg"src="//i1.ygimg.cn/testvedio/staccatomv0001.mp4"  >您的浏览器不支持播放</video>
+
+ </video>
+			</div>
+			
+			<div id="fastype">
+				<ul>
+				<li><a href="#"><img src="img/type1.png"/></a></li>	
+				<li><a href="#"><img src="img/type2.png"/></a></li>
+				<li><a href="#"><img src="img/type3.png"/></a></li>
+				<li><a href="#"><img src="img/type4.png"/></a></li>
+				<li><a href="#"><img src="img/type5.png"/></a></li>
+				<li><a href="#"><img src="img/type6.png"/></a></li>
+				<li><a href="#"><img src="img/type7.png"/></a></li>
+				<li><a href="#"><img src="img/type8.png"/></a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="footer">
+			<div id="footertitle">
+				<ul>
+				<li><a href="#"><img src="img/footer1.png"/></a></li>
+				<li><a href="#"><img src="img/footer2.png"/></a></li>
+				<li><a href="#"><img src="img/footer3.png"/></a></li>
+				<li><a href="#"><img src="img/footer4.png"/></a></li>
+				</ul>
+			</div>
+			<div id="footerhelp">
+				<div id="footerhelp1">
+					<ul id="helpnav">
+					<li class="helpspecial">
+						<h3>新手帮助</h3>
+						<p><a href="#">交易条款协议</a></p>
+						<p><a href="#">注册新用户</a></p>
+						<p><a href="#">会员积分详情</a></p>
+					</li>
+					<li>
+						<h3>购物指南</h3>
+						<p><a href="#">订购流程</a></p>
+						<p><a href="#">验货与签收</a></p>
+						<p><a href="#">订单配送</a></p>
+					</li>
+						<li>
+						<h3>支付/配送</h3>
+						<p><a href="#">支付方式</a></p>
+						<p><a href="#">配送方式</a></p>
+						<p><a href="#">配送时间及运费</a></p>
+					</li>
+						<li>
+						<h3>售后服务</h3>
+						<p><a href="#">退换货政策</a></p>
+						<p><a href="#">退款说明</a></p>
+						<p><a href="#">发票制度</a></p>
+					</li>
+							<li>
+						<h3>会员服务</h3>
+						<p><a href="#">找回密码</a></p>
+						<p><a href="#">联系我们</a></p>
+					</li>
+							<li>
+						<h3>优购客服</h3>
+						<p><a href="#"><img src="img/helpnav.png"/>在线咨询</a></p>
+						<p><a href="#">Email:ygservice@belle.com.cn</a></p>
+						<p><a href="#">微信客服:优购时尚商城</a></p>
+					</li>
+					</ul>
+					<div id="helplogo">
+						<ul class="logoleft">
+						<li><a href="#"><img src="img/sm_124x47.png"/></a></li>
+						<li><a href="#"><img src="img/ebs-logo.jpg"/></a></li>
+						<li><a href="#"><img src="img/beian1.png"/></a></li>
+						<li><a href="#"><img src="img/beian2.png"/></a></li>
+						</ul>
+						
+						<ul class="logoright">
+							<li>
+					
+						  	<img src="img/app.jpg"/>
+
+							<p>扫描下载手机客户端</p>
+							</li>
+							<li>
+								<img src="img/weChat.jpg"/>
+							<p>关注公众号</p>
+							</li>
+						</ul>
+						
+					</div>
+	   <div class="friendly-link">
+      <ul class="content">
+        <li>
+          <a href="#" >关于优购</a>|
+        </li>
+        <li>
+          <a href="#">集团采购</a>|
+        </li>
+        <li>
+          <a href="#" >招贤纳士</a>|
+        </li>
+        <li>
+          <a href="#">手机优购</a>|
+        </li>
+        <li>
+          <a href="#">联系我们</a>|
+        </li>
+        <li>
+          <a href="#">友情链接</a>
+        </li>
+      </ul>
+    </div>
+		<div class="copyright">
+      <p>
+        Copyright © 2011-2016 Yougou Technology Co., Ltd.
+        <a href="//www.miibeian.gov.cn" target="_blank" rel="nofollow">粤ICP备09070608号-4</a>
+        增值电信业务经营许可证：
+        <a href="//www.miibeian.gov.cn" target="_blank" rel="nofollow">粤 B2-20090203
+        </a>&nbsp;
+        <span>深公网安备：4403101910665 </span>
+        <a target="_blank" href="//www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030502000017">
+          <span>粤公网安备 44030502000017号</span>
+        </a>
+      </p>
+    </div>			
+	 </div>
+				
+				
+	</div>
+			
+			
+		</div>
+		<script src="js/index.js" type="text/javascript" charset="UTF-8">
+		
+		</script>
+	</body>
+</html>

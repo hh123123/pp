@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+	<head>
+       <link rel="shortcut icon" href="https://www.yougou.com/favicon.ico">
+		<meta charset="UTF-8">
+		<title>零食详情页</title>
+	  <link rel="stylesheet" type="text/css" href="css/common.css" />
+	  <link rel="stylesheet" type="text/css" href="css/details.css" />
+	  	<script src="js/jquery-1.11.0.js"></script>
+	   <script src="js/cookie.js"></script>
+	</head>
+	<body>
+			<div id="header">
+			<ul id="guanzhu">
+			<li>
+				<a href="#">关注</a>
+				<div class="border">
+				<img class="guanzhuimg"    src="https://pcs1.ygimg.cn/template/common/images/weChat.jpg " alt="关注公众号"/>
+				<span>关注公众号</span>
+				</div>
+			</li>	
+		     <li class="download">
+				<a href="#">下载APP</a>
+				<div class="border" id="border2">
+				<img class="guanzhuimg"    src="https://pcs1.ygimg.cn/template/common/images/app.jpg " alt="优购APP下载"/>
+				<span>优购APP下载</span>
+				</div>
+			</li>
+			</ul>
+	
+		   <ul id="rightnav">
+		    	<li class="itemfirst"><a id="logname" href="login.html">未登录</a>&nbsp;/&nbsp;<a href="register.html">注册</a></li>
+		   	<li class="item">
+		  <a href="https://www.yougou.com/my/favorites.jhtml" class="top-collect">
+          <img src="img/xin.png"/>
+                  收藏
+         </a>
+		   	</li>
+		   	<li class="itemcart">
+		   
+		   	<a href="shopcar.html"> <img src="img/cart.png"/>购物车</a>
+		   	<span id="cartnumber"></span>
+		   	</li>
+		   	<li class="item">
+		   	<a href="#">公告</a>
+		   	<ul id="itemselect">
+		    <li><a href="#" class="wuliu">优购2019春节物流安排通知</a></li>
+		    <li><a href="#">优购客服电话变更</a></li>
+		     <li><a href="#">关闭分享购频道</a></li>		    
+		   	  <li><a href="#">提醒会员谨防诈骗电话</a></li>			
+		   	</ul>
+		   	</li>
+		   </ul>
+		</div>
+		<div id="title">
+			<div id="titlelog">
+				<a href="index.html">
+					<img src="img/logo.png" />
+				</a>
+			</div>
+			<div id="titlenav">
+				<div id="titlenav1">
+					<ul id="titlenav11">
+						<li id="tlogo"><a href="index.html"><img src="img/logo.png"/></a></li>
+					    <li>
+					    	<a href="index.html">首页</a>
+					    </li>
+					    <li><a href="list.html">零食</a>
+					    	<div></div>
+					    </li>
+					   	<li><a href="index.html">男鞋</a>
+					   	   <div></div>
+					   	</li>
+					   	<li><a href="index.html">运动</a>
+					   	   <div></div>
+					   	</li>
+					   	<li><a href="index.html">户外</a>
+					   	 <div></div>
+					   	</li>	
+					   	<li><a href="index.html">儿童</a>
+					   	  <div></div>
+					   	</li>
+					   	<li><a href="index.html">鞋包</a>
+					   	 <div></div>
+					   	</li>
+					</ul>
+					<form id="search">
+					  <input id="val" type="text" />
+				     <input id="ser" type="submit" value="" />
+				     <ul id="searchdetails">
+				     	
+				     </ul>
+					</form>
+				</div>
+		
+			</div>
+		</div>
+		
+		<div id="prodetails">
+		<div id="produtitle">
+			您的当前位置:<a href="index.html">首页</a>/<a href="list.html">零品列表</a>/<a href="#">零食详情</a>
+		</div>
+		<div id="procontent">
+	        <div id="buy"><img src="img/gouwu.png"/></div>
+            <div id="loginzero">
+            	<span id="close">关闭</span>
+				<ul id="logintitle">
+					<li><a class="t1" href="#">帐户密码登录</a></li>
+					<li><a href="#">手机号快捷登录</a></li>
+				</ul>
+				<div id="loginmes">
+				<form>
+					
+					<div id="user">
+				<p id="pp">
+					<img src="img/login1.png" />	
+				   <input id="name" type="text" placeholder="请输入用户名" />
+			
+				  </p>
+				  <p id="usernum">
+				  	请输入账号
+				  </span>
+					</div>
+			
+				   <div id="user">
+				   	<p id="pp">
+				   <img src="img/login2.png" />	
+				   <input id="psw" type="text" placeholder="请输入密码"/>
+				   	</p>
+				    <p id="pswnum" >
+				  	请输入密码
+				  </span>
+					</div>
+				<p class="forget"><a href="#">忘记密码?</a></p>
+					
+				<input type="button" value="点击登录" id="sub"/>
+			 <p style="color: #999;margin-top: 10px;text-align: center;">使用合作网站账号登录优购：</p>
+			 <p class="coplink">
+                       <a  href="#"><img src="img/weixin.png"/>&nbsp;</a> |
+                        <a href="#"><img src="img/zhifubao.png"/>&nbsp;</a> |
+                        <a href="#"/><img src="img/qq.png"/>&nbsp;</a> |
+                        <a href="#"><img src="img/weibo.png"/>&nbsp;</a> |
+                        <a href="#" class="nreg_people f_blue"><img src="img/renren.png"/>&nbsp;</a>
+                    </p>
+				</form>
+				
+				
+				</div>
+			</div>
+		</div>
+			
+			
+			
+			
+			
+		</div>
+		
+		
+		
+			<div id="footer">
+			<div id="footertitle">
+				<ul>
+				<li><a href="#"><img src="img/footer1.png"/></a></li>
+				<li><a href="#"><img src="img/footer2.png"/></a></li>
+				<li><a href="#"><img src="img/footer3.png"/></a></li>
+				<li><a href="#"><img src="img/footer4.png"/></a></li>
+				</ul>
+			</div>
+			<div id="footerhelp">
+				<div id="footerhelp1">
+					<ul id="helpnav">
+					<li class="helpspecial">
+						<h3>新手帮助</h3>
+						<p><a href="#">交易条款协议</a></p>
+						<p><a href="#">注册新用户</a></p>
+						<p><a href="#">会员积分详情</a></p>
+					</li>
+					<li>
+						<h3>购物指南</h3>
+						<p><a href="#">订购流程</a></p>
+						<p><a href="#">验货与签收</a></p>
+						<p><a href="#">订单配送</a></p>
+					</li>
+						<li>
+						<h3>支付/配送</h3>
+						<p><a href="#">支付方式</a></p>
+						<p><a href="#">配送方式</a></p>
+						<p><a href="#">配送时间及运费</a></p>
+					</li>
+						<li>
+						<h3>售后服务</h3>
+						<p><a href="#">退换货政策</a></p>
+						<p><a href="#">退款说明</a></p>
+						<p><a href="#">发票制度</a></p>
+					</li>
+							<li>
+						<h3>会员服务</h3>
+						<p><a href="#">找回密码</a></p>
+						<p><a href="#">联系我们</a></p>
+					</li>
+							<li>
+						<h3>优购客服</h3>
+						<p><a href="#"><img src="img/helpnav.png"/>在线咨询</a></p>
+						<p><a href="#">Email:ygservice@belle.com.cn</a></p>
+						<p><a href="#">微信客服:优购时尚商城</a></p>
+					</li>
+					</ul>
+					<div id="helplogo">
+						<ul class="logoleft">
+						<li><a href="#"><img src="img/sm_124x47.png"/></a></li>
+						<li><a href="#"><img src="img/ebs-logo.jpg"/></a></li>
+						<li><a href="#"><img src="img/beian1.png"/></a></li>
+						<li><a href="#"><img src="img/beian2.png"/></a></li>
+						</ul>
+						
+						<ul class="logoright">
+							<li>
+					
+						  	<img src="img/app.jpg"/>
+
+							<p>扫描下载手机客户端</p>
+							</li>
+							<li>
+								<img src="img/weChat.jpg"/>
+							<p>关注公众号</p>
+							</li>
+						</ul>
+						
+					</div>
+	   <div class="friendly-link">
+      <ul class="content">
+        <li>
+          <a href="#" >关于优购</a>|
+        </li>
+        <li>
+          <a href="#">集团采购</a>|
+        </li>
+        <li>
+          <a href="#" >招贤纳士</a>|
+        </li>
+        <li>
+          <a href="#">手机优购</a>|
+        </li>
+        <li>
+          <a href="#">联系我们</a>|
+        </li>
+        <li>
+          <a href="#">友情链接</a>
+        </li>
+      </ul>
+    </div>
+		<div class="copyright">
+      <p>
+        Copyright © 2011-2016 Yougou Technology Co., Ltd.
+        <a href="//www.miibeian.gov.cn" target="_blank" rel="nofollow">粤ICP备09070608号-4</a>
+        增值电信业务经营许可证：
+        <a href="//www.miibeian.gov.cn" target="_blank" rel="nofollow">粤 B2-20090203
+        </a>&nbsp;
+        <span>深公网安备：4403101910665 </span>
+        <a target="_blank" href="//www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030502000017">
+          <span>粤公网安备 44030502000017号</span>
+        </a>
+      </p>
+    </div>			
+	 </div>
+				
+				
+	</div>
+			
+			
+		</div>
+		
+		<script src="js/common.js"></script>	
+			<script src="js/details.js"></script>
+	</body>
+</html>

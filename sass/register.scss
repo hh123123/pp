@@ -1,0 +1,312 @@
+*{margin:0;padding:0;}
+a{text-decoration:none;}
+li{list-style:none;}
+body{    font:12px/20px tahoma,'Microsoft YaHei';}
+#header{
+    width:100%;
+    height:40px;
+    background:#333;
+    margin:0 auto
+}
+#header #guanzhu{
+    float:left;
+    margin-left:145px;
+    width:92px;
+    height:40px;
+    
+}
+#header li{
+    float:left;
+    font-size:12px;
+    line-height: 40px;
+    
+}
+#header #guanzhu li{
+    position:relative;
+}
+#header li a{
+    color:#fff;
+}
+#header .download{
+    margin-left:20px;
+}
+
+#header .border{
+    border: 1px solid #ccc;
+    position:absolute;
+    left:-60px;
+    top:40px;
+    display:none;
+    width:140px;
+    height:166px;
+     z-index:2000;
+     background:#fff;
+    
+}
+#header #border2{
+    left:-30px;
+}
+#header .guanzhuimg{
+    display: block;
+    width:120px;
+    height:120px;
+    margin:10px;
+     
+}
+#header #guanzhu span{
+    line-height: 0;
+    margin: 10px 0 18px;
+    display: block;
+    color:#333;
+    text-align: center;
+    background: red;
+    
+}
+#header #rightnav{
+     
+    float:right;
+    height:40px;
+    margin-right:92px;
+}
+
+#header #rightnav .itemfirst{
+    margin-right:11px;
+    color:#ccc;
+}
+#header #rightnav .item{
+    margin:0 11px;
+}
+#header #rightnav  .itemcart{
+    position:relative;
+    margin-left:13px;
+    margin-right:11px;
+
+}
+#header #rightnav  .itemcart span{
+    position:absolute;
+    display:none;
+    line-height:20px;
+    text-align:center;
+    top:0px;
+    right:-20px;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+
+    color:#E60012;
+    background: #fff;
+}
+#header #rightnav i{
+    width:10px;
+    height:10px;
+    display:inline-block;
+}
+
+#header #rightnav img{
+    width:12px;
+    height:12px;
+    margin-right:8px;
+}
+#header #rightnav .item{
+    position:relative;
+}
+#header #rightnav #itemselect{
+      background:#fff;
+    display:none;
+    position:absolute;
+    z-index:2000;
+    top:40px;
+    right:0;
+    width:180px;
+    border:1px solid #eee;
+    padding:15px 15px 30px 20px;
+    
+}
+#header #rightnav #itemselect li{
+    width:180px;
+    height:20px;
+    line-height:28px;
+    padding-bottom:8px;
+    border-bottom:1px solid #eee;
+    
+}
+#header #rightnav #itemselect .wuliu{
+    color:#e60012;
+}
+#header #rightnav #itemselect a{
+    color:#666;
+    font-size:12px;
+}
+
+#title{
+    width:100%;
+    height:42px;
+    padding:13px 0;
+    border-bottom:1px solid #dcdbde;
+}
+#titlecenter{
+    width:990px;
+    height:42px;
+    margin:0 auto;
+
+}
+#titlecenter a{
+    padding: 5px 30px 5px 0;
+    border-right: 1px solid #e6e6e6;
+    margin-right: 30px;
+    width:151px;
+    height:32px;
+  
+}
+#titlecenter a img{
+    margin-top:2px;
+    width:151px;
+    height:31px;
+}
+#titlecenter span{
+     font: 18px/40px normal;
+     color:#727272;
+}
+#banner{
+    width:100%;
+    height:553px;
+    position:relative;
+    
+}
+#banner a{
+      
+    width:100%;
+    height:553px;  
+}
+#banner img{
+    
+    width:100%;
+    height:553px;
+    
+    
+}
+#footer{
+    width:100%;
+    height:40px;
+    overflow: hidden;
+    
+}
+#footer p{
+    margin-top:20px;
+    height:20px;
+    width:100%;
+    text-align:center;
+        font: 12px/20px tahoma,'Microsoft YaHei';
+            color: #666;
+    
+}
+#footer p a{
+    padding:0 20px;
+    color:#AAA;
+}
+
+#loginzero{
+    position:absolute;
+    left:58%;
+    top:50px;
+    z-index:1;
+    width:378px;
+    
+    height:500px;
+    background: #fff;
+}
+#loginzero #logintitle{
+    
+    width:300px;
+    height:40px;
+    border-bottom: 1px solid #f3f3f3;
+    margin: 40px 10px 0 50px;
+    
+}
+#loginzero #logintitle li{
+    float:left;
+    width:123px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+}
+#loginzero #logintitle li a{
+    display: inline-block;
+     width:123px;
+    height:40px;
+  color:#333;
+  background:#f3f3f3;
+}
+#loginzero #logintitle  li .t1{
+    color:#fff;
+    background:#333;
+}
+#loginzero #loginmes{
+    
+    
+    width:338px;
+    height:287px;
+    padding-left:10px;
+    padding-top:30px;
+    margin:0 15px;
+}
+#loginmes #user{
+    width:330px;
+    height:66px;
+    padding-left:8px;
+}
+#loginmes p{
+    border: 1px solid rgb(51, 51, 51);
+    width:311px;
+    height:36px;
+}
+#loginmes p span{
+   
+    height:26px;
+    display: inline-block;
+    margin:5px 8px 3px 5px;
+    float: left;
+ 
+}
+#loginmes p input{
+    width:225px;
+    height:36px;
+    border:none;
+    padding-left:10px;
+    float: right;
+    background: none;
+}
+
+
+#loginmes #sub{
+    cursor:pointer;
+    text-align: center;
+    background: #000;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    width: 318px;
+    margin-top:20px;
+}
+
+ h5{
+     font-weight:normal;
+    margin-top:4px;
+    height:18px;
+    display: none;
+    background: url(../img/line.png) no-repeat;
+   background-size:18px 18px;
+   padding-left:30px;
+}
+
+#loginmes #checksel{
+    
+    margin-left:16px;
+    
+}
+ #prol{
+    
+    color:#666;
+}
